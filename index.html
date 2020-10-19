@@ -448,11 +448,7 @@
               </svg>
             </button>
           </form>
-        </div>
-          
-          
-          
-        </form>        
+        </div>               
       </div>
     </footer>
 
@@ -465,35 +461,35 @@
             </svg></button>
           <form class="modal-form" action="#" method="get">
             <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
-            <div role="group">
-              <div class="modal-form-field">
+            <ul class="list">
+              <li class="modal-form-field">
                 <label class="modal-form-label" for="user-name">Имя</label>
                 <input class="modal-form-input" type="text" name="user-name" id="user-name" placeholder=" " required
                   minlength="2">
                 <svg class="modal-form-icon">
                   <use href="./images/svg/sprite.svg#person-black"></use>
                 </svg>
-              </div>
+              </li>
     
-              <div class="modal-form-field">
+              <li class="modal-form-field">
                 <label class="modal-form-label" for="user-phone">Телефон</label>
                 <input class="modal-form-input" type="tel" name="user-phone" id="user-phone" placeholder=" " required>
                 <svg class="modal-form-icon">
                   <use href="./images/svg/sprite.svg#phone-black"></use>
                 </svg>
-              </div>
+              </li>
     
-              <div class="modal-form-field">
+              <li class="modal-form-field">
                 <label class="modal-form-label" for="user-email">Почта</label>
                 <input class="modal-form-input" type="email" name="user-email" id="user-email" placeholder=" " required>
                 <svg class="modal-form-icon">
                   <use href="./images/svg/sprite.svg#email-black"></use>
                 </svg>
-              </div>
-            </div>
+              </li>
+            </ul>
     
             <div class="modal-comment-field">
-              <label class="modal-comment-label for=" comment">Комментарий</label>
+              <label class="modal-comment-label" for="comment">Комментарий</label>
               <textarea class="modal-comment-area" name="comment" id="comment" placeholder="Введите текст"></textarea>
             </div>
     
@@ -501,12 +497,8 @@
               id="user-policy">
             <label class="modal-policy-label" for="user-policy">Соглашаюсь с рассылкой и принимаю <a
                 class="modal-policy-link" href="">Условия договора</a></label>
-    
-    
-    
-            <div class="modal-btn-wrapper">
-              <button type="submit" class="modal-btn">Отправить</button>
-            </div>    
+
+            <button type="submit" class="modal-btn">Отправить</button>       
     
           </form>
         </div>
